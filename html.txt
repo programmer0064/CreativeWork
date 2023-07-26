@@ -1,0 +1,17 @@
+Was ist HTML?
+HTML wird genutzt, um dem Browser mitzuteilen, wie er verschiedene Formen von Inhalten wie Text,Link, Bild strukturieren und darstellen soll. 
+Es gilt als Standardsprache beim Erstellen einer Internetseite. Hierbei werden Tags bzw. Codezeilen wie "head ... head", "body ... body" genutzt, um dem Browser 
+mitzuteilen, wo z.B. die Überschrift und wo der eigentliche Text ist.
+
+HTML Locators
+Um eine automatisierte Software zu schreiben, müssen wir unserem Programm mitteilen, auf welchen Elementen einer Webpage es Aktionen ausführen muss.
+Hierfür nutzen wir HTML Locators von Selenium, die spezifische Adressen der einzelnen Elemente darstellen. Es gibt verschiedene Formen von Addressen wie Name, ID, XPath, Class_Name etc.
+Beim Aussuchen müssen wir darauf achten, dass die Addresse unique ist. Hierfür nutzen wir die Methode .findElement(By.(Addresse),"").
+
+Selenium Aktionen
+Auf den nun identifiziereten Elementen können wir verschiedene Aktionen ausführen. 
+.sendKeys() = schreibt einen Text in die Lücke
+.clear() = löscht den Inhalt
+.click() = klickt auf Buttons
+.get() = öffnet eine Webpage
+.
